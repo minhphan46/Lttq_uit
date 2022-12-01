@@ -1,0 +1,16 @@
+D:\development\projects_winform\Bai3\Bai3\bin\Debug\Bai3.exe.config
+D:\development\projects_winform\Bai3\Bai3\bin\Debug\Bai3.exe
+D:\development\projects_winform\Bai3\Bai3\bin\Debug\Bai3.pdb
+D:\development\projects_winform\Bai3\Bai3\obj\Debug\Bai3.csproj.AssemblyReference.cache
+D:\development\projects_winform\Bai3\Bai3\obj\Debug\Bai3.csproj.SuggestedBindingRedirects.cache
+D:\development\projects_winform\Bai3\Bai3\obj\Debug\Bai3.csproj.CoreCompileInputs.cache
+D:\development\projects_winform\Bai3\Bai3\obj\Debug\Bai3.exe
+D:\development\projects_winform\Bai3\Bai3\obj\Debug\Bai3.pdb
+D:\source_code\Code_C#\buổi1\Bai03\Bai3\bin\Debug\Bai3.exe.config
+D:\source_code\Code_C#\buổi1\Bai03\Bai3\bin\Debug\Bai3.exe
+D:\source_code\Code_C#\buổi1\Bai03\Bai3\bin\Debug\Bai3.pdb
+D:\source_code\Code_C#\buổi1\Bai03\Bai3\obj\Debug\Bai3.csproj.AssemblyReference.cache
+D:\source_code\Code_C#\buổi1\Bai03\Bai3\obj\Debug\Bai3.csproj.SuggestedBindingRedirects.cache
+D:\source_code\Code_C#\buổi1\Bai03\Bai3\obj\Debug\Bai3.csproj.CoreCompileInputs.cache
+D:\source_code\Code_C#\buổi1\Bai03\Bai3\obj\Debug\Bai3.exe
+D:\source_code\Code_C#\buổi1\Bai03\Bai3\obj\Debug\Bai3.pdb

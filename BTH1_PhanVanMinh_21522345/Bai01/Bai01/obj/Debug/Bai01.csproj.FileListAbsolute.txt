@@ -1,0 +1,8 @@
+D:\development\projects_winform\Bai01\Bai01\bin\Debug\Bai01.exe.config
+D:\development\projects_winform\Bai01\Bai01\bin\Debug\Bai01.exe
+D:\development\projects_winform\Bai01\Bai01\bin\Debug\Bai01.pdb
+D:\development\projects_winform\Bai01\Bai01\obj\Debug\Bai01.csproj.AssemblyReference.cache
+D:\development\projects_winform\Bai01\Bai01\obj\Debug\Bai01.csproj.SuggestedBindingRedirects.cache
+D:\development\projects_winform\Bai01\Bai01\obj\Debug\Bai01.csproj.CoreCompileInputs.cache
+D:\development\projects_winform\Bai01\Bai01\obj\Debug\Bai01.exe
+D:\development\projects_winform\Bai01\Bai01\obj\Debug\Bai01.pdb

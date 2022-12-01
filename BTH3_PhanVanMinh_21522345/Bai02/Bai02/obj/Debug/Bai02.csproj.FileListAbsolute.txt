@@ -1,0 +1,11 @@
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\bin\Debug\Bai02.exe.config
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\bin\Debug\Bai02.exe
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\bin\Debug\Bai02.pdb
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\obj\Debug\Bai02.csproj.AssemblyReference.cache
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\obj\Debug\Bai02.csproj.SuggestedBindingRedirects.cache
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\obj\Debug\Bai02.Properties.Resources.resources
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\obj\Debug\Bai02.csproj.GenerateResource.cache
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\obj\Debug\Bai02.csproj.CoreCompileInputs.cache
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\obj\Debug\Bai02.exe
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\obj\Debug\Bai02.pdb
+D:\development\source_code\Code_C#\Buổi 3\Bai02\Bai02\obj\Debug\Bai02.PaintEvent.resources

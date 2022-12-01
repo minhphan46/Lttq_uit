@@ -1,0 +1,8 @@
+D:\source_code\Code_C#\buổi1\Bai05\Bai05\bin\Debug\Bai05.exe.config
+D:\source_code\Code_C#\buổi1\Bai05\Bai05\bin\Debug\Bai05.exe
+D:\source_code\Code_C#\buổi1\Bai05\Bai05\bin\Debug\Bai05.pdb
+D:\source_code\Code_C#\buổi1\Bai05\Bai05\obj\Debug\Bai05.csproj.AssemblyReference.cache
+D:\source_code\Code_C#\buổi1\Bai05\Bai05\obj\Debug\Bai05.csproj.SuggestedBindingRedirects.cache
+D:\source_code\Code_C#\buổi1\Bai05\Bai05\obj\Debug\Bai05.csproj.CoreCompileInputs.cache
+D:\source_code\Code_C#\buổi1\Bai05\Bai05\obj\Debug\Bai05.exe
+D:\source_code\Code_C#\buổi1\Bai05\Bai05\obj\Debug\Bai05.pdb

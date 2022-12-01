@@ -1,0 +1,8 @@
+D:\development\source_code\Code_C#\BTH2_PhanVanMinh_21522345\Bai04\Bai04\bin\Debug\Bai04.exe.config
+D:\development\source_code\Code_C#\BTH2_PhanVanMinh_21522345\Bai04\Bai04\bin\Debug\Bai04.exe
+D:\development\source_code\Code_C#\BTH2_PhanVanMinh_21522345\Bai04\Bai04\bin\Debug\Bai04.pdb
+D:\development\source_code\Code_C#\BTH2_PhanVanMinh_21522345\Bai04\Bai04\obj\Debug\Bai04.csproj.AssemblyReference.cache
+D:\development\source_code\Code_C#\BTH2_PhanVanMinh_21522345\Bai04\Bai04\obj\Debug\Bai04.csproj.SuggestedBindingRedirects.cache
+D:\development\source_code\Code_C#\BTH2_PhanVanMinh_21522345\Bai04\Bai04\obj\Debug\Bai04.csproj.CoreCompileInputs.cache
+D:\development\source_code\Code_C#\BTH2_PhanVanMinh_21522345\Bai04\Bai04\obj\Debug\Bai04.exe
+D:\development\source_code\Code_C#\BTH2_PhanVanMinh_21522345\Bai04\Bai04\obj\Debug\Bai04.pdb
