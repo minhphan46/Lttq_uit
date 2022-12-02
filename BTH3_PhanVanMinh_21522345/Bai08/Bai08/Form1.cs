@@ -69,6 +69,11 @@ namespace Bai08
                 MessageBox.Show("Vui long nhap day du thong tin");
                 return;
             }
+            if (tbTen.Text.Any(char.IsDigit))
+            {
+                MessageBox.Show("Ten khong hop le!");
+                return;
+            }
             int soTaiKhoan = 0;
             decimal soTien = 0;
             bool canConvert1 = int.TryParse(tbSoTaiKhoan.Text, out soTaiKhoan);
@@ -170,6 +175,25 @@ namespace Bai08
             total = 0;
             tbTotal.Clear();
             listView.Items.Clear();
+        }
+
+        private void listView_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (listView.SelectedItems.Count > 0)
+                {
+                    int i = int.Parse(listView.SelectedItems[0].Text);
+                    tbSoTaiKhoan.Text = listTK.listTaiKhoan[i].SoTaiKhoan.ToString();
+                    tbTen.Text = listTK.listTaiKhoan[i].Ten;
+                    tbDiaChi.Text = listTK.listTaiKhoan[i].DiaChi;
+                    tbTien.Text = listTK.listTaiKhoan[i].SoTien.ToString();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("loi");
+            }
         }
     }
 }
