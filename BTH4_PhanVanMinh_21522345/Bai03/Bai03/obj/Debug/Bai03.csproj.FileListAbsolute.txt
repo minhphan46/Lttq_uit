@@ -1,0 +1,16 @@
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\bin\Debug\Bai03.exe.config
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\bin\Debug\Bai03.exe
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\bin\Debug\Bai03.pdb
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\Bai03.csproj.AssemblyReference.cache
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\Bai03.csproj.SuggestedBindingRedirects.cache
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\Bai03.Form1.resources
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\Bai03.Properties.Resources.resources
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\Bai03.csproj.GenerateResource.cache
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\Bai03.csproj.CoreCompileInputs.cache
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\Bai03.exe
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\Bai03.pdb
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\Interop.WMPLib.dll
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\AxInterop.WMPLib.dll
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\obj\Debug\Bai03.csproj.ResolveComReference.cache
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\bin\Debug\Interop.WMPLib.dll
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai03\Bai03\bin\Debug\AxInterop.WMPLib.dll

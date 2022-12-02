@@ -19,7 +19,13 @@ namespace Bai02
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            lbTime.Text = DateTime.Now.ToString("h:mm:ss tt");
+            lbTime.Text = DateTime.Now.ToString("dddd, MMMM dd, yyyy HH:mm:ss tt");
+            timer.Enabled = true;
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            lbTime.Text = DateTime.Now.ToString("dddd, MMMM dd, yyyy HH:mm:ss tt");
         }
     }
 }
