@@ -98,6 +98,11 @@ namespace Bai09
                 tbMSV.Focus();
                 return;
             }
+            else if (tbTen.Text.Any(char.IsDigit))
+            {
+                MessageBox.Show("Ten khong hop le!");
+                return;
+            }
             else if (!rbtn_nam.Checked && !rbtn_nu.Checked)
             {
                 MessageBox.Show("Gioi tinh bi sai");

@@ -1,0 +1,36 @@
+﻿CREATE DATABASE Bai05_TH4;
+GO
+
+USE Bai05_TH4
+GO
+
+CREATE TABLE NGANHHOC
+(
+	MaNganh VARCHAR(10) PRIMARY KEY,
+	TenNganh NVARCHAR (50) NOT NULL,
+)
+CREATE TABLE SINHVIEN (
+    MaSV INT PRIMARY KEY,
+    HoTen NVARCHAR(50) NOT NULL,
+	MaNganh VARCHAR(10) FOREIGN KEY REFERENCES NGANHHOC(MaNganh),
+    DiemTB FLOAT NOT NULL,
+)
+
+-- create data
+INSERT INTO NGANHHOC values ('KTPM', N'Kỹ thuật phần mềm');
+INSERT INTO NGANHHOC values ('HTTH', N'Hệ thống thông tin');
+INSERT INTO NGANHHOC values ('KHMT', N'Khoa học máy tính');
+INSERT INTO NGANHHOC values ('KHDL', N'Khoa học dữ liệu');
+INSERT INTO NGANHHOC values ('ATTT', N'An toàn thông tin');
+INSERT INTO NGANHHOC values ('CNTT', N'Công nghệ thông tin');
+INSERT INTO NGANHHOC values ('TMDT', N'Thương mại điện tử');
+INSERT INTO NGANHHOC values ('MMT', N'Mạng máy tính và truyền thông dữ liệu');
+
+INSERT INTO SINHVIEN values (21522000,N'Bế Trường An','KTPM', 5.92);
+INSERT INTO SINHVIEN values (21522001,N'Thiều Trọng Chính','HTTH', 9.12);
+INSERT INTO SINHVIEN values (21522002,N'Quán Khánh Hoàn','KHMT', 4.51);
+INSERT INTO SINHVIEN values (21522003,N'Chung Vũ Minh','ATTT', 5.16);
+INSERT INTO SINHVIEN values (21522004,N'Võ Phước Nhân','CNTT', 8.55);
+
+DELETE FROM SINHVIEN WHERE MaSV=21522345;
+DELETE FROM SINHVIEN WHERE MaSV=21522344;

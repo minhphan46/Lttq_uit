@@ -78,6 +78,7 @@
             this.btn_Add.TabIndex = 3;
             this.btn_Add.Text = "Thêm mới";
             this.btn_Add.UseVisualStyleBackColor = false;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
             // 
             // label2
             // 
@@ -137,6 +138,7 @@
             this.btn_exit.TabIndex = 3;
             this.btn_exit.Text = "Thoát";
             this.btn_exit.UseVisualStyleBackColor = false;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // AddForm
             // 

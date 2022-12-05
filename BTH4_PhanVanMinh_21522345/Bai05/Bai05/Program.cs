@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bai05.Provider;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,6 +17,8 @@ namespace Bai05
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            DataProvider.Instance.FetchKhoas();
+            DataProvider.Instance.FetchSinhViens();
             Application.Run(new Form1());
         }
     }

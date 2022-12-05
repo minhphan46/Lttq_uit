@@ -10,3 +10,4 @@ D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai05\Bai0
 D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai05\Bai05\obj\Debug\Bai05.csproj.CoreCompileInputs.cache
 D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai05\Bai05\obj\Debug\Bai05.exe
 D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai05\Bai05\obj\Debug\Bai05.pdb
+D:\development\source_code\Code_C#\Lttq_uit\BTH4_PhanVanMinh_21522345\Bai05\Bai05\obj\Debug\Bai05.AddForm.resources
