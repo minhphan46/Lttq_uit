@@ -62,7 +62,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -75,7 +75,7 @@
             this.saveItem,
             this.exitButon});
             this.hệThốngToolStripMenuItem.Name = "hệThốngToolStripMenuItem";
-            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
+            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(85, 26);
             this.hệThốngToolStripMenuItem.Text = "Hệ thống";
             // 
             // CreateNewItem
@@ -118,7 +118,7 @@
             // editItem
             // 
             this.editItem.Name = "editItem";
-            this.editItem.Size = new System.Drawing.Size(92, 24);
+            this.editItem.Size = new System.Drawing.Size(92, 26);
             this.editItem.Text = "Định dạng";
             this.editItem.Click += new System.EventHandler(this.editItem_Click);
             // 
@@ -135,9 +135,9 @@
             this.tbn_italic,
             this.btn_underline,
             this.toolStripSeparator2});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 30);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(800, 28);
+            this.toolStrip1.Size = new System.Drawing.Size(800, 31);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -148,7 +148,7 @@
             this.newButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newButton.Name = "newButton";
             this.newButton.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.newButton.Size = new System.Drawing.Size(34, 25);
+            this.newButton.Size = new System.Drawing.Size(34, 28);
             this.newButton.Text = "btn_new";
             this.newButton.Click += new System.EventHandler(this.newButton_Click);
             // 
@@ -159,20 +159,21 @@
             this.saveButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveButton.Name = "saveButton";
             this.saveButton.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.saveButton.Size = new System.Drawing.Size(34, 25);
+            this.saveButton.Size = new System.Drawing.Size(34, 28);
             this.saveButton.Text = "btn_save";
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 28);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // cb_font
             // 
+            this.cb_font.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_font.Name = "cb_font";
             this.cb_font.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.cb_font.Size = new System.Drawing.Size(230, 28);
+            this.cb_font.Size = new System.Drawing.Size(210, 31);
             this.cb_font.TextChanged += new System.EventHandler(this.cb_font_TextChanged);
             // 
             // cb_size
@@ -197,7 +198,7 @@
             "72"});
             this.cb_size.Name = "cb_size";
             this.cb_size.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.cb_size.Size = new System.Drawing.Size(80, 28);
+            this.cb_size.Size = new System.Drawing.Size(75, 31);
             this.cb_size.TextChanged += new System.EventHandler(this.cb_size_TextChanged);
             // 
             // btn_bold
@@ -208,7 +209,7 @@
             this.btn_bold.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_bold.Name = "btn_bold";
             this.btn_bold.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_bold.Size = new System.Drawing.Size(34, 25);
+            this.btn_bold.Size = new System.Drawing.Size(34, 28);
             this.btn_bold.Text = "toolStripButton3";
             this.btn_bold.Click += new System.EventHandler(this.btn_bold_Click);
             // 
@@ -219,7 +220,7 @@
             this.tbn_italic.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tbn_italic.Name = "tbn_italic";
             this.tbn_italic.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.tbn_italic.Size = new System.Drawing.Size(34, 25);
+            this.tbn_italic.Size = new System.Drawing.Size(34, 28);
             this.tbn_italic.Text = "toolStripButton4";
             this.tbn_italic.Click += new System.EventHandler(this.tbn_italic_Click);
             // 
@@ -230,23 +231,23 @@
             this.btn_underline.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_underline.Name = "btn_underline";
             this.btn_underline.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btn_underline.Size = new System.Drawing.Size(34, 25);
+            this.btn_underline.Size = new System.Drawing.Size(34, 28);
             this.btn_underline.Text = "btn_underline";
             this.btn_underline.Click += new System.EventHandler(this.btn_underline_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 28);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 31);
             // 
             // richTb
             // 
             this.richTb.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTb.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTb.Location = new System.Drawing.Point(0, 56);
+            this.richTb.Location = new System.Drawing.Point(0, 61);
             this.richTb.Margin = new System.Windows.Forms.Padding(4);
             this.richTb.Name = "richTb";
-            this.richTb.Size = new System.Drawing.Size(800, 394);
+            this.richTb.Size = new System.Drawing.Size(800, 389);
             this.richTb.TabIndex = 2;
             this.richTb.Text = "";
             // 

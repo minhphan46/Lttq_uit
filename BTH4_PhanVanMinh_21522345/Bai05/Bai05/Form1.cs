@@ -53,5 +53,34 @@ namespace Bai05
         {
             Application.Exit();
         }
+
+        private void tb_find_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                for (int i = 0; i < dgv_SinhVien.RowCount; i++)
+                {
+                    if (dgv_SinhVien.Rows[i].Cells[2].Value != null && dgv_SinhVien.Rows[i].Cells[2].Value.ToString().ToLower().Contains(tb_find.Text.ToLower().Trim()))
+                    {
+                        dgv_SinhVien.CurrentCell = null;
+                        dgv_SinhVien.Rows[i].Visible = true;
+                    }
+                    else
+                    {
+                        dgv_SinhVien.CurrentCell = null;
+                        dgv_SinhVien.Rows[i].Visible = false;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void tb_find_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
     }
 }

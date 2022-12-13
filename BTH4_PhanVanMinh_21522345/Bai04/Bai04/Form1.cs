@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.ComTypes;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -118,19 +119,18 @@ namespace Bai04
         }
 
         
-        private async void openItem_Click(object sender, EventArgs e)
+        private void openItem_Click(object sender, EventArgs e)
         {
             try
             {
-                using (OpenFileDialog openFileDialog1 = new OpenFileDialog() { Filter = "Text Document|*.txt;*.rtf", ValidateNames = true, Multiselect = false })
+                using (OpenFileDialog openFileDialog1 = new OpenFileDialog() { Filter = "TXT|*.txt|RTF|*.rtf", ValidateNames = true, Multiselect = false })
                 {
                     if (openFileDialog1.ShowDialog() == DialogResult.OK)
                     {
-                        using (StreamReader sr = new StreamReader(openFileDialog1.FileName))
-                        {
-                            filename = openFileDialog1.FileName;
-                            richTb.Text = await sr.ReadToEndAsync();
-                        }
+                        filename = openFileDialog1.FileName;
+                        string extension = Path.GetExtension(filename);
+                        if (extension == ".txt") richTb.LoadFile(filename, RichTextBoxStreamType.PlainText);
+                        else richTb.LoadFile(filename, RichTextBoxStreamType.RichText);
                     }
                 }
             }
@@ -165,33 +165,24 @@ namespace Bai04
             btn_bold.BackColor = SystemColors.Control;
         }
 
-        private async void saveButton_Click(object sender, EventArgs e)
+        private void saveButton_Click(object sender, EventArgs e)
         {
             try
             {
-                if(filename == "")
+                SaveFileDialog sfd = new SaveFileDialog();
+                sfd.Filter = "rtf|*.rtf";
+
+                if (string.IsNullOrEmpty(filename))
                 {
-                    // new file
-                    using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "Text Documents|*.rtf", ValidateNames = true})
+                    if (sfd.ShowDialog() == DialogResult.OK)
                     {
-                        if (sfd.ShowDialog() == DialogResult.OK)
-                        {
-                            using (StreamWriter sw = new StreamWriter(sfd.FileName))
-                            {
-                                await sw.WriteLineAsync(richTb.Text);
-                                filename = sfd.FileName;
-                            }
-                        }
+                        richTb.SaveFile(sfd.FileName, RichTextBoxStreamType.RichText);
                     }
                 }
                 else
                 {
-                    // file exist
-                    using (StreamWriter sw = new StreamWriter(filename))
-                    {
-                        await sw.WriteLineAsync(richTb.Text);
-                    }
-                    MessageBox.Show("Lưu văn bản thành công!","Thông báo", MessageBoxButtons.OK);
+                    richTb.SaveFile(filename, RichTextBoxStreamType.RichText);
+                    MessageBox.Show("Đã lưu thành công file !");
                 }
             }
             catch (Exception ex)

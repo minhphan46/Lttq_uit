@@ -72,14 +72,14 @@
             // 
             this.tbn_TS_add.Name = "tbn_TS_add";
             this.tbn_TS_add.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.tbn_TS_add.Size = new System.Drawing.Size(224, 26);
+            this.tbn_TS_add.Size = new System.Drawing.Size(212, 26);
             this.tbn_TS_add.Text = "Thêm mới";
             this.tbn_TS_add.Click += new System.EventHandler(this.tbn_TS_add_Click);
             // 
             // btn_exit
             // 
             this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(224, 26);
+            this.btn_exit.Size = new System.Drawing.Size(212, 26);
             this.btn_exit.Text = "Thoát";
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
@@ -117,9 +117,12 @@
             this.tb_find.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_find.Name = "tb_find";
             this.tb_find.Size = new System.Drawing.Size(351, 27);
+            this.tb_find.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_find_KeyPress);
+            this.tb_find.TextChanged += new System.EventHandler(this.tb_find_TextChanged);
             // 
             // dgv_SinhVien
             // 
+            this.dgv_SinhVien.AllowUserToAddRows = false;
             this.dgv_SinhVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_SinhVien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.soTT,
@@ -131,6 +134,7 @@
             this.dgv_SinhVien.Location = new System.Drawing.Point(0, 55);
             this.dgv_SinhVien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgv_SinhVien.Name = "dgv_SinhVien";
+            this.dgv_SinhVien.ReadOnly = true;
             this.dgv_SinhVien.RowHeadersWidth = 51;
             this.dgv_SinhVien.RowTemplate.Height = 24;
             this.dgv_SinhVien.Size = new System.Drawing.Size(816, 395);
