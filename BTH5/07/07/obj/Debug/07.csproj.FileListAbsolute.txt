@@ -1,0 +1,10 @@
+D:\C++\C#\BTH\BTH5\07\07\bin\Debug\07.exe.config
+D:\C++\C#\BTH\BTH5\07\07\bin\Debug\07.exe
+D:\C++\C#\BTH\BTH5\07\07\bin\Debug\07.pdb
+D:\C++\C#\BTH\BTH5\07\07\obj\Debug\07.csprojAssemblyReference.cache
+D:\C++\C#\BTH\BTH5\07\07\obj\Debug\_07.Properties.Resources.resources
+D:\C++\C#\BTH\BTH5\07\07\obj\Debug\07.csproj.GenerateResource.cache
+D:\C++\C#\BTH\BTH5\07\07\obj\Debug\07.csproj.CoreCompileInputs.cache
+D:\C++\C#\BTH\BTH5\07\07\obj\Debug\07.exe
+D:\C++\C#\BTH\BTH5\07\07\obj\Debug\07.pdb
+D:\C++\C#\BTH\BTH5\07\07\obj\Debug\_07.MainWindow.resources
