@@ -41,6 +41,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.cbb_EndCap = new System.Windows.Forms.ComboBox();
             this.ptb_paint = new System.Windows.Forms.PictureBox();
+            this.btn_reset = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ptb_paint)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +63,6 @@
             this.cbb_dashStyle.Name = "cbb_dashStyle";
             this.cbb_dashStyle.Size = new System.Drawing.Size(152, 24);
             this.cbb_dashStyle.TabIndex = 1;
-            this.cbb_dashStyle.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -79,6 +80,7 @@
             this.cbb_width.Name = "cbb_width";
             this.cbb_width.Size = new System.Drawing.Size(152, 24);
             this.cbb_width.TabIndex = 1;
+            this.cbb_width.TextChanged += new System.EventHandler(this.cbb_width_TextChanged);
             // 
             // label3
             // 
@@ -147,7 +149,7 @@
             // 
             this.cbb_EndCap.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbb_EndCap.FormattingEnabled = true;
-            this.cbb_EndCap.Location = new System.Drawing.Point(106, 259);
+            this.cbb_EndCap.Location = new System.Drawing.Point(106, 262);
             this.cbb_EndCap.Name = "cbb_EndCap";
             this.cbb_EndCap.Size = new System.Drawing.Size(152, 24);
             this.cbb_EndCap.TabIndex = 1;
@@ -161,12 +163,36 @@
             this.ptb_paint.Size = new System.Drawing.Size(527, 448);
             this.ptb_paint.TabIndex = 2;
             this.ptb_paint.TabStop = false;
+            this.ptb_paint.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ptb_paint_MouseDown);
+            this.ptb_paint.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ptb_paint_MouseMove);
+            this.ptb_paint.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ptb_paint_MouseUp);
+            // 
+            // btn_reset
+            // 
+            this.btn_reset.Location = new System.Drawing.Point(25, 321);
+            this.btn_reset.Name = "btn_reset";
+            this.btn_reset.Size = new System.Drawing.Size(105, 45);
+            this.btn_reset.TabIndex = 3;
+            this.btn_reset.Text = "Reset";
+            this.btn_reset.UseVisualStyleBackColor = true;
+            this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(22, 382);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(139, 32);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Giữ chuột trái để vẽ\r\nBấm chuột phải để nối\r\n";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.btn_reset);
             this.Controls.Add(this.ptb_paint);
             this.Controls.Add(this.cbb_EndCap);
             this.Controls.Add(this.label6);
@@ -204,6 +230,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cbb_EndCap;
         private System.Windows.Forms.PictureBox ptb_paint;
+        private System.Windows.Forms.Button btn_reset;
+        private System.Windows.Forms.Label label7;
     }
 }
 
